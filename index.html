@@ -1,0 +1,399 @@
+
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omar Al-Madhagi - CV Attachments</title>
+    <meta name="description" content="Professional attachments, certificates, and links for Omar Al-Madhagi's CV">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 
+        INSTRUCTIONS FOR ADDING MORE CERTIFICATES:
+        1. Add your certificate image to /assets/certs/ folder
+        2. Copy one of the .cert-card divs below
+        3. Update data-image with your filename (e.g., "new-cert.jpg")
+        4. Update data-title with certificate title
+        5. Update data-subtitle with date/organization info
+        6. Update data-file with the actual file path if different from image
+    -->
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <i class="fas fa-paperclip"></i>
+                <span>CV Attachments</span>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#social" class="nav-link">Links</a></li>
+                <li><a href="#certificates" class="nav-link">Certificates</a></li>
+                <li><a href="#attachments" class="nav-link">Attachments</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-icon">
+                <i class="fas fa-file-medical"></i>
+            </div>
+            <h1 class="hero-title animate-fade-in">
+                CV Attachments
+            </h1>
+            <p class="hero-subtitle animate-fade-in-delay">
+                Omar Al-Madhagi
+            </p>
+            <p class="hero-description animate-fade-in-delay-2">
+                Professional links, certificates, and supplementary materials
+            </p>
+            <a href="mailto:your.email@example.com" class="cta-button animate-fade-in-delay-3">
+                <i class="fas fa-envelope"></i>
+                <span>Contact Me</span>
+            </a>
+        </div>
+        <div class="hero-decoration">
+            <div class="floating-orb orb-1"></div>
+            <div class="floating-orb orb-2"></div>
+            <div class="floating-orb orb-3"></div>
+        </div>
+    </section>
+
+    <!-- Social & Professional Links Section -->
+    <section class="section" id="social">
+        <div class="container">
+            <h2 class="section-title reveal">
+                <i class="fas fa-link"></i>
+                Social & Professional Links
+            </h2>
+            <div class="cards-grid">
+                <a href="https://www.linkedin.com/in/omar-al-madhagi-86a761139" target="_blank" class="link-card reveal">
+                    <div class="card-icon linkedin">
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">LinkedIn</h3>
+                        <p class="card-subtitle">Professional Network</p>
+                    </div>
+                    <i class="fas fa-external-link-alt card-arrow"></i>
+                </a>
+
+                <a href="https://researchgate.net/profile/Omar-Al-Madhagi" target="_blank" class="link-card reveal">
+                    <div class="card-icon researchgate">
+                        <i class="fab fa-researchgate"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">ResearchGate</h3>
+                        <p class="card-subtitle">Research Profile</p>
+                    </div>
+                    <i class="fas fa-external-link-alt card-arrow"></i>
+                </a>
+
+                <a href="https://github.com/omayqr" target="_blank" class="link-card reveal">
+                    <div class="card-icon github">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">GitHub</h3>
+                        <p class="card-subtitle">Code Repository</p>
+                    </div>
+                    <i class="fas fa-external-link-alt card-arrow"></i>
+                </a>
+
+                <a href="https://orcid.org/0009-0004-5122-938X" target="_blank" class="link-card reveal">
+                    <div class="card-icon orcid">
+                        <i class="fab fa-orcid"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">ORCID</h3>
+                        <p class="card-subtitle">Researcher ID</p>
+                    </div>
+                    <i class="fas fa-external-link-alt card-arrow"></i>
+                </a>
+
+                <a href="https://alawlaqy.blogspot.com" target="_blank" class="link-card reveal">
+                    <div class="card-icon website">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Website</h3>
+                        <p class="card-subtitle">Personal Blog</p>
+                    </div>
+                    <i class="fas fa-external-link-alt card-arrow"></i>
+                </a>
+
+                <a href="https://youtube.com/@qrdr" target="_blank" class="link-card reveal">
+                    <div class="card-icon youtube">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">YouTube</h3>
+                        <p class="card-subtitle">Video Content</p>
+                    </div>
+                    <i class="fas fa-external-link-alt card-arrow"></i>
+                </a>
+
+                <a href="https://wa.me/967777908359" target="_blank" class="link-card reveal">
+                    <div class="card-icon whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">WhatsApp</h3>
+                        <p class="card-subtitle">Direct Message</p>
+                    </div>
+                    <i class="fas fa-external-link-alt card-arrow"></i>
+                </a>
+
+                <a href="https://t.me/omay4qr" target="_blank" class="link-card reveal">
+                    <div class="card-icon telegram">
+                        <i class="fab fa-telegram-plane"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Telegram</h3>
+                        <p class="card-subtitle">Instant Messaging</p>
+                    </div>
+                    <i class="fas fa-external-link-alt card-arrow"></i>
+                </a>
+
+                <a href="https://www.facebook.com/Omay4qr" target="_blank" class="link-card reveal">
+                    <div class="card-icon facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Facebook</h3>
+                        <p class="card-subtitle">Social Profile</p>
+                    </div>
+                    <i class="fas fa-external-link-alt card-arrow"></i>
+                </a>
+
+                <a href="https://www.instagram.com/omar4qrr" target="_blank" class="link-card reveal">
+                    <div class="card-icon instagram">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Instagram</h3>
+                        <p class="card-subtitle">Visual Content</p>
+                    </div>
+                    <i class="fas fa-external-link-alt card-arrow"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section class="section section-alt" id="certificates">
+        <div class="container">
+            <h2 class="section-title reveal">
+                <i class="fas fa-certificate"></i>
+                Certificates & Credentials
+            </h2>
+            <div class="certs-grid">
+                <div class="cert-card reveal" 
+                     data-image="assets/certs/ivpn-hiv-attendance-2024.jpg"
+                     data-title="IVPN — HIV Awareness Workshop"
+                     data-subtitle="Certificate of Attendance • January 31, 2024"
+                     data-file="assets/certs/ivpn-hiv-attendance-2024.jpg">
+                    <div class="cert-image">
+                        <img src="assets/certs/ivpn-hiv-attendance-2024.jpg" alt="IVPN HIV Certificate">
+                        <div class="cert-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3 class="cert-title">IVPN — HIV Awareness</h3>
+                        <p class="cert-date">January 2024</p>
+                    </div>
+                </div>
+
+                <div class="cert-card reveal"
+                     data-image="assets/certs/globalsurg-gecko-collaborator-2023.jpg"
+                     data-title="GlobalSurg — GECKO Study Collaborator"
+                     data-subtitle="Research Collaborator • October 2023"
+                     data-file="assets/certs/globalsurg-gecko-collaborator-2023.jpg">
+                    <div class="cert-image">
+                        <img src="assets/certs/globalsurg-gecko-collaborator-2023.jpg" alt="GlobalSurg GECKO Certificate">
+                        <div class="cert-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3 class="cert-title">GlobalSurg — GECKO Study</h3>
+                        <p class="cert-date">October 2023</p>
+                    </div>
+                </div>
+
+                <div class="cert-card reveal"
+                     data-image="assets/certs/creativity-house-ai-pm-2025.jpg"
+                     data-title="AI Project Management Professional"
+                     data-subtitle="Certificate of Participation • January 26, 2025"
+                     data-file="assets/certs/creativity-house-ai-pm-2025.jpg">
+                    <div class="cert-image">
+                        <img src="assets/certs/creativity-house-ai-pm-2025.jpg" alt="AI Project Management Certificate">
+                        <div class="cert-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3 class="cert-title">AI Project Management</h3>
+                        <p class="cert-date">January 2025</p>
+                    </div>
+                </div>
+
+                <div class="cert-card reveal"
+                     data-image="assets/certs/pim-bls-nhcps-2023.jpg"
+                     data-title="Basic Life Support (BLS) Certification"
+                     data-subtitle="Statement of Participation • Valid Jan 2021 – Jan 2023"
+                     data-file="assets/certs/pim-bls-nhcps-2023.jpg">
+                    <div class="cert-image">
+                        <img src="assets/certs/pim-bls-nhcps-2023.jpg" alt="BLS Certificate">
+                        <div class="cert-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3 class="cert-title">Basic Life Support (BLS)</h3>
+                        <p class="cert-date">2021-2023</p>
+                    </div>
+                </div>
+
+                <div class="cert-card reveal"
+                     data-image="assets/certs/ibm-spss-statistics-expert-2023.jpg"
+                     data-title="IBM SPSS Statistics Expert Certification"
+                     data-subtitle="Professional Certificate • 2023"
+                     data-file="assets/certs/ibm-spss-statistics-expert-2023.jpg">
+                    <div class="cert-image">
+                        <img src="assets/certs/ibm-spss-statistics-expert-2023.jpg" alt="IBM SPSS Certificate">
+                        <div class="cert-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3 class="cert-title">IBM SPSS Statistics Expert</h3>
+                        <p class="cert-date">2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional Attachments Section -->
+    <section class="section" id="attachments">
+        <div class="container">
+            <h2 class="section-title reveal">
+                <i class="fas fa-paperclip"></i>
+                Additional Attachments
+            </h2>
+            <div class="cards-grid">
+                <a href="https://www.amazon.com/AL-Awlaqi-Omay4qr/dp/B0DFT1DJNS" target="_blank" class="link-card reveal">
+                    <div class="card-icon amazon">
+                        <i class="fab fa-amazon"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Omay4qr App</h3>
+                        <p class="card-subtitle">Available on Amazon</p>
+                    </div>
+                    <i class="fas fa-external-link-alt card-arrow"></i>
+                </a>
+
+                <a href="https://t.me/Omay4qr_Bot" target="_blank" class="link-card reveal">
+                    <div class="card-icon telegram">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Omay4qr Bot</h3>
+                        <p class="card-subtitle">Educational Telegram Bot</p>
+                    </div>
+                    <i class="fas fa-external-link-alt card-arrow"></i>
+                </a>
+
+                <a href="https://youtube.com/@qrdr" target="_blank" class="link-card reveal">
+                    <div class="card-icon youtube">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Content Creator</h3>
+                        <p class="card-subtitle">Medical & Tech Simplified</p>
+                    </div>
+                    <i class="fas fa-external-link-alt card-arrow"></i>
+                </a>
+
+                <a href="https://www.facebook.com/profile.php?id=100093179737099&mibextid=ZbWKwL" target="_blank" class="link-card reveal">
+                    <div class="card-icon membership">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">JMSA Journal</h3>
+                        <p class="card-subtitle">Membership</p>
+                    </div>
+                    <i class="fas fa-external-link-alt card-arrow"></i>
+                </a>
+
+                <a href="https://www.facebook.com/share/1EQBC6gEBG/" target="_blank" class="link-card reveal">
+                    <div class="card-icon volunteer">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Cancer Support Team</h3>
+                        <p class="card-subtitle">Volunteer Member</p>
+                    </div>
+                    <i class="fas fa-external-link-alt card-arrow"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Omar Al-Madhagi. All rights reserved.</p>
+            <p class="footer-subtitle">CV Attachments Page</p>
+        </div>
+    </footer>
+
+    <!-- Certificate Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-overlay" id="lightboxOverlay"></div>
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lightboxClose" aria-label="Close">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="lightbox-header">
+                <h3 class="lightbox-title" id="lightboxTitle"></h3>
+                <p class="lightbox-subtitle" id="lightboxSubtitle"></p>
+            </div>
+            <div class="lightbox-image-container">
+                <img src="" alt="Certificate Preview" id="lightboxImage">
+            </div>
+            <div class="lightbox-footer">
+                <a href="#" class="lightbox-button" id="lightboxButton" target="_blank">
+                    <i class="fas fa-file-download"></i>
+                    <span>Open Full Certificate</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+```
+
